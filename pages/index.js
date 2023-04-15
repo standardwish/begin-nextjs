@@ -48,17 +48,15 @@ export default function Home() {
             </div>
           </a>
 
-          <a
-            href="./"
+          <Link
+            href="/index.html"
             className={styles.card}
           >
-            <h3>HOW IT'S MADE </h3>
+            <h3>Bouncing balls!</h3>
             <div className={styles.info}>
-              <span>Show{' '}</span>
-              <span className={styles.accent}>the whole procedure</span>
-              <span>{' '}how this website is made</span>
+              <span>You can see bouncing balls by clicking this box!</span>
             </div>
-          </a>
+          </Link>
         </div>
       </main>
 
