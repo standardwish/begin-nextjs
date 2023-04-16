@@ -66,5 +66,6 @@ function draw() {
   strokeWeight(2);
   fill(127);
   ellipse(location1.x,location1.y,60,60);
+  fill(256);
   ellipse(location2.x,location2.y,48,48);
 }
